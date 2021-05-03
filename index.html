@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+    -->
+
+    <!-- SEO -->
+    <title>WebSlides Keynote: Make a Keynote presentation using HTML</title>
+    <meta name="description" content="WebSlides is the easiest way to make HTML presentations. Just essential features, clean code, and lovely CSS.">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="http://your-url.com/permalink"> <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Make a Keynote presentation using HTML"> <!-- EDIT -->
+    <meta property="og:description" content="WebSlides is the easiest way to make HTML presentations. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:32:14"> <!-- EDIT -->
+    <meta property="og:image" content="../static/images/share-webslides.jpg" > <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
+    <meta name="twitter:title" content="Make a Keynote presentation using HTML"> <!-- EDIT -->
+    <meta name="twitter:description" content="WebSlides is the easiest way to make HTML presentations. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta name="twitter:image" content="../static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="../static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="../static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="../static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="../static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="../static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="../static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+  <body>
+    <!-- <header role="banner">
+      <nav role="navigation">
+        <p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/webslides/webslides" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/webslides" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@WebSlides</em>
+            </a>
+          </li>
+          <!-  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> ->
+        </ul>
+      </nav>
+    </header>
+ -->
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <!-- Splash Slide -->
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h1><img class="whitelogo" src="../static/images/logos/trent.png" alt="Trent Logo"></h1>
+            <h2>MaDGIC Interview</h2>
+            <h3>Data Visualization and Statistical Support Specialist</h3>
+            <h3>Jim Wei</h3>
+            <h3>2021-05-03</h3>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- About me -->
+        <section class="bg-apple">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2>About Jim</h2>
+                  <h4>GIS Applications Specialist at Fleming College</h4>
+                  <h4>3+ Years in Environmental Consulting<h4>
+                  <h4>BSc. In Environmental Geoscience</h4>
+                  <h4><i>Loves programming and developing!</i></h4>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <figure><img class="aligncenter" src="../static/images/jim.png" alt="Picture of Jim"></figure>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- Esri Canada Scholarship -->
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h2>Fleming College Esri Canada GIS Scholarship Recipient</h2>
+            <a href="https://scholars.esri.ca/profile/?uid=JWei" target="_blank">  
+              <figure><img class="aligncenter" src="../static/images/Esri2.png" alt="Picture of Jim"></figure>
+            </a>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- My Github Projects -->
+        <section class="bg-apple aligncenter">
+          <div class="wrap">
+            <h2>My Projects</h2>
+            <ul class="flexblock features">
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    <a href="https://jimhwei.github.io/tutorials-demos/Code-Train/DataAPISeries/03_fetch_iss/index.html" target="_blank" rel="noopener noreferrer">Live ISS Tracker</a>
+                  </h2>
+                  Created an ISS tracker using JavaScript, API Calls, Leaflet and OSM. It tracks the ISS location and gives you information of its latitude, longitude, and space station velocity. 
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-link">
+                      <use xlink:href="#fa-link"></use>
+                    </svg>
+                    
+                    <a href="https://github.com/jimhwei/pci-python-cookbook/blob/main/ihs-image-merging.py" target="_blank" rel="noopener noreferrer">Remote Sensing Automation</a>
+                  </h2>
+                  Using PCI Python Cookbook and API documentation to create an automated workflow for image fusion and resolution enhancement.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>
+                    <svg class="fa-clock-o">
+                      <use xlink:href="#fa-clock-o"></use>
+                    </svg>
+                    <a href="https://jimhwei.github.io/geoignite-leaflet/" target="_blank" rel="noopener noreferrer">Leaflet Census Data Visualization</a>
+                  </h2>
+                  Participated in GeoIgnite Leaflet workshop and created a census data visualization map for Calgary, Alberta using leaflet.
+                </div>
+              </li>
+            </ul>
+
+            <!-- Images in the second row -->
+            <ul class="flexblock">
+              <li>
+                <div>
+                  <a href="https://jimhwei.github.io/tutorials-demos/Code-Train/DataAPISeries/03_fetch_iss/index.html" target="_blank" rel="noopener noreferrer">
+                    <figure><img src="../static/images/ISS.png" alt=""></figure>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a href="https://github.com/jimhwei/pci-python-cookbook/blob/main/ihs-image-merging.py" target="_blank" rel="noopener noreferrer">
+                    <figure><img src="../static/images/pci.png" alt=""></figure>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a href="https://jimhwei.github.io/geoignite-leaflet/" target="_blank" rel="noopener noreferrer">
+                    <figure><img src="../static/images/leaflet.png" alt=""></figure>
+                  </a>
+                </div>
+              </li>
+            </div>
+          </ul>
+        </section>
+
+        <!-- Env Modelling -->
+        <section class="bg-apple">
+          <div class="wrap">
+            <div class="card-50">
+              <figure><img class="aligncenter" src="../static/images/env-mod.png" alt="Environmental Modelling"></figure>
+              <div class="flex-content">
+                <h2>
+                  Environmental Modelling
+                </h2>
+                <p class="text-intro">Topo to Raster, IDW, Natural Neighbour, Spline</p>
+                <p>Geostatistical modelling using different interpolation techniques to explore autocorrelation.</p>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- end .card-50-->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- Environmental Modelling Poster -->
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h2>Terrain Modelling Poster</h2>
+              <figure><img class="aligncenter" src="../static/images/LCP.png" alt="Picture of Jim"></figure>
+          </div>
+          <p>Created a trail using least cost paths, viewshed analysis and DEM visualization (ArcScene)</p>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap">
+            <div class="card-50">
+              <figure><img class="aligncenter" src="../static/images/spatial.png" alt="Spatial Analysis Poster"></figure>
+              <div class="flex-content">
+                <h2>
+                  Spatial Analysis
+                </h2>
+                <p class="text-intro">Used different statistical techniques to explore Toronto Housing Prices in 2011. For example: </p>
+                <ul>
+                  <li>Regression Analysis</li>
+                  <li>Ordinary Least Square (OLS)</li>
+                  <li>Moran's I</li>
+                  <li>Geographically Weighted Regression (GWR)</li>
+                </ul>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- end .card-50-->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-apple">
+          <div class="wrap aligncenter">
+            <!-- <h3>My Technology Proficiencies</h3> -->
+            <!-- li>a? Add blink = <ul class="flexblock metrics blink">-->
+            <ul class="flexblock metrics border">
+              <li>
+                <figure><img src="../static/images/python.png" alt=""></figure>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/javascript.png" alt=""></figure>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/bootstrap.png" alt=""></figure>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/SQL.png" alt=""></figure>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/arcgis.png" alt=""></figure>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/fme.png" alt=""></figure>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/jupyter1.png" alt=""></figure>
+                  <!-- Image created by Cameron Oelsen -->
+                </span>
+              </li>
+              <li>
+                <span>
+                  <figure><img src="../static/images/cloud.png" alt=""></figure>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- <section class="bg-apple">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>I am currently learning:</h2>
+            </div>
+            <!- end .content-left ->
+            <div class="content-left">
+              <p>The technology is always changing, so I learn to change with the times! </p>
+            </div>
+            <!- end .content-left ->
+            <ul class="flexblock">
+              <li>
+                <div>
+                  <!- <img class="whitelogo" src="../static/images/logos/microsoft.svg" alt="Microsoft"> ->
+                  R
+                </div>
+              </li>
+              <li>
+                <div>
+                  Tableau
+                </div>
+              </li>
+              <li>
+                <div>
+                  Esri Training...
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!- .end .wrap ->
+        </section> -->
+
+        <!-- Esri Transcript -->
+        <section class="bg-apple aligncenter">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h2>Learning is a lifelong process!</h2>
+            <figure><img class="aligncenter" src="../static/images/esri-training.png" alt="Picture of Jim"></figure>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- Current project -->
+        <section class="bg-apple">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2>My Current Projects</h2>
+                <p></p>
+                <ol>
+                  <p>Building an <a href="https://jimhwei.github.io/webgis-web-charlie/" target="_blank" rel="noopener noreferrer"> interactive web map solution</a> for Sustainable Cobourg in <b>Northumberland County</b>.
+                  </p>
+                  <p>Which involves:</p>
+                  <li>A platform for food distribution supply chain visualization</li>
+                  <li>Using open data to develop a geodatabases</li>
+                  <li>
+                    Setting up automation workflows                    
+                    </li>
+                  <li>
+                    Embedding it to the organization website
+                  </li>
+                </ol>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <a href="https://storymaps.arcgis.com/stories/d559d2df48d74b64acde9efb29894152" target="_blank" rel="noopener noreferrer">
+                  <figure><img class="aligncenter" src="../static/images/food-desert.png" alt="Picture of Jim"></figure>
+                </a>
+                <figcaption>
+                  <a href="https://storymaps.arcgis.com/stories/d559d2df48d74b64acde9efb29894152" target="_blank" rel="noopener noreferrer">Delineating food deserts</a>
+                   and creating regions using multi-criteria decision analysis
+                </figcaption>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+     
+        <!-- End -->
+        <section class="bg-apple aligncenter">
+          <h2><strong>Thank you!</strong></h2>
+          <p>My sample work in my 
+            <a href="https://jimhwei.github.io/post/fleming/" target="_blank" rel="noopener noreferrer">
+              personal blog
+            </a>
+          </p>
+
+          <p>
+            <a href="https://arcg.is/iWOim" target="_blank" rel="noopener noreferrer">
+              Story map
+            </a>
+            about my Esri GIS development.
+          </p>
+
+            <p>You can find me on <a href="https://www.linkedin.com/in/jimwei/" title="Jim's LinkedIn">LinkedIn</a> and <a href="https://twitter.com/thejimwei" title="@thejimwei on Twitter">Twitter</a></p>
+            <h4 class="text-emoji zoomIn">😎</h4>
+        </section>
+
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="../static/js/webslides.js"></script>
+
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="../static/js/svg-icons.js"></script>
+
+  </body>
+</html>
